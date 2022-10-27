@@ -1,0 +1,32 @@
+Arguments: 
+  /home/alex/.nvm/versions/node/v17.2.0/bin/node /usr/share/yarn/bin/yarn.js add typescript ts-node-dev -D
+
+PATH: 
+  /home/alex/.yarn/bin:/home/alex/.config/yarn/global/node_modules/.bin:/home/alex/.yarn/bin:/home/alex/.config/yarn/global/node_modules/.bin:/home/alex/.yarn/bin:/home/alex/.config/yarn/global/node_modules/.bin:/home/alex/.local/share/zinit/polaris/bin:/home/alex/.nvm/versions/node/v17.2.0/bin:/home/alex/.yarn/bin:/home/alex/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.npm.taobao.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:72:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
